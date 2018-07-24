@@ -29,7 +29,7 @@ public class ShipwreckController {
 		return ShipwreckStub.get(id);
 	}
 	
-	@RequestMapping(value = "shupwrecks/{id}", method = RequestMethod.PUT)
+	@RequestMapping(value = "shipwrecks/{id}", method = RequestMethod.PUT)
 	public Shipwreck update(@PathVariable Long id, @RequestBody Shipwreck shipwreck) {
 		return ShipwreckStub.update(id, shipwreck);
 	}
